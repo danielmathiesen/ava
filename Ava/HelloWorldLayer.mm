@@ -2,7 +2,7 @@
 //  HelloWorldLayer.mm
 //  Ava
 //
-//  Created by Daniel Mathiesen on 02.03.13.
+//  Created by Daniel Mathiesen on 03.03.13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -94,7 +94,6 @@ enum {
 	delete m_debugDraw;
 	m_debugDraw = NULL;
 	
-	[super dealloc];
 }	
 
 -(void) createMenu
@@ -118,7 +117,6 @@ enum {
 		
 		[[app navController] presentModalViewController:achivementViewController animated:YES];
 		
-		[achivementViewController release];
 	}];
 	
 	// Leaderboard Menu Item using blocks
@@ -132,7 +130,6 @@ enum {
 		
 		[[app navController] presentModalViewController:leaderboardViewController animated:YES];
 		
-		[leaderboardViewController release];
 	}];
 	
 	CCMenu *menu = [CCMenu menuWithItems:itemAchievement, itemLeaderboard, reset, nil];

@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  Ava
 //
-//  Created by Daniel Mathiesen on 02.03.13.
+//  Created by Daniel Mathiesen on 03.03.13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -14,11 +14,11 @@
 	UIWindow *window_;
 	UINavigationController *navController_;
 	
-	CCDirectorIOS	*director_;							// weak ref
+	CCDirectorIOS	*__weak director_;							// weak ref
 }
 
-@property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, strong) UIWindow *window;
 @property (readonly) UINavigationController *navController;
-@property (readonly) CCDirectorIOS *director;
+@property (weak, readonly) CCDirectorIOS *director;
 
 @end

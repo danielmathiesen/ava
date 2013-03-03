@@ -2,7 +2,7 @@
 //  IntroLayer.m
 //  Ava
 //
-//  Created by Daniel Mathiesen on 02.03.13.
+//  Created by Daniel Mathiesen on 03.03.13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 // Import the interfaces
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
-
+#import "CCBigImage.h"
 
 #pragma mark - IntroLayer
 
@@ -20,6 +20,8 @@
 // Helper class method that creates a Scene with the HelloWorldLayer as the only child.
 +(CCScene *) scene
 {
+    [[CCBigImage alloc] initWithTilesFile:@"" tilesExtension:@"" tilesZ:0];
+    
 	// 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];
 	

@@ -2,7 +2,7 @@
 //  PhysicsSprite.mm
 //  Ava
 //
-//  Created by Daniel Mathiesen on 02.03.13.
+//  Created by Daniel Mathiesen on 03.03.13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -59,10 +59,5 @@
 	return transform_;
 }
 
--(void) dealloc
-{
-	// 
-	[super dealloc];
-}
 
 @end

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD21169516E2D75A006EE993"
-               BuildableName = "Ava.app"
-               BlueprintName = "Ava"
+               BlueprintIdentifier = "DD211B4F16E2DD24006EE993"
+               BuildableName = "libcocos2d libraries.a"
+               BlueprintName = "cocos2d libraries"
                ReferencedContainer = "container:Ava.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD21169516E2D75A006EE993"
-            BuildableName = "Ava.app"
-            BlueprintName = "Ava"
-            ReferencedContainer = "container:Ava.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD21169516E2D75A006EE993"
-            BuildableName = "Ava.app"
-            BlueprintName = "Ava"
-            ReferencedContainer = "container:Ava.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -66,15 +48,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD21169516E2D75A006EE993"
-            BuildableName = "Ava.app"
-            BlueprintName = "Ava"
-            ReferencedContainer = "container:Ava.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
